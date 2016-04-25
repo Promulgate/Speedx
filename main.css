@@ -1,0 +1,35 @@
+body {
+  font: 10px sans-serif;
+}
+
+.axis path, .axis line, .axis2 path, .axis2 line{
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path, .x.axis2 path {
+  display: none;
+}
+
+.line, .line2 {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle, .focus2 circle {
+  fill: none;
+  stroke: steelblue;
+}
+
+
+.bike-map {
+    width: 500px;
+    height: 380px;
+}
